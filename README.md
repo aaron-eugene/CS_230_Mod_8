@@ -1,2 +1,27 @@
 # CS_230_Mod_8
 Operating Platforms
+
+Summary of the Client and Software Requirements
+
+The client for this project was The Gaming Room, a casual gaming company aiming to expand the reach of their existing Android app, Draw It or Lose It, by developing a web-based version that could serve multiple platforms, including desktop and mobile web browsers. Draw It or Lose It is a multiplayer drawing and guessing game inspired by the 1980s television show Win, Lose or Draw. Instead of players drawing by hand, the application uses a large library of stock images that are rendered progressively during each round.
+Creative Technology Solutions (CTS), the consulting firm I was working for, was tasked with creating a software design document and beginning development of the web-based version. Key requirements included supporting multiple teams and players per game, ensuring unique naming for games and teams to avoid conflicts, and maintaining a single active instance of the game in memory at a time. Additionally, CTS was responsible for streamlining the development process for The Gaming Room, as their staff had limited experience setting up the necessary technical environment.
+
+What I Did Well
+
+One of the areas I feel I did well was thoroughly analyzing the client’s needs and translating them into a clear, structured software design. I took the time to ensure that each technical decision – from platform compatibility to memory management strategies – directly aligned with both the current requirements and anticipated future needs of the game. I also worked hard to keep the document organized, logical, and easy for others to follow, which would potentially help ensure a smoother development handoff. In addition, I tried to ensure a balance between technical depth and accessibility, so that both technical and non-technical stakeholders could understand the system architecture and workflow.
+
+Helpful Aspects of Working Through the Design Document
+
+The process of writing the design document upfront was incredibly valuable. It forced me to think critically about the system architecture, user workflows, and technical constraints early on, rather than reacting to issues later during development. By thinking about the relationships between games, teams, and players ahead of time, I could anticipate challenges like unique name enforcement and memory management from the start. It also helped me break down complex functionality into smaller, more manageable components, making the coding phase more organized and less overwhelming. In addition, having a complete design document would potentially provide a clear communication tool to ensure that both the client and development team would be aligned on the project vision before any code was written.
+
+Area for Improvement
+
+If I could revise one part of the design document, I would focus on enhancing the visual elements, particularly by adding detailed user flow diagrams or mockups of the gameplay. While I attempted to detail the technical descriptions and system architecture, additional visual aids would have made it even easier for stakeholders and future developers to quickly grasp the intended user experience and game mechanics. A clearer visual representation of how a game session progresses – maybe from team setup to final round – would strengthen the document's clarity and usability. In future projects, I would like to dedicate more time upfront to creating these diagrams alongside the written content to create an even more complete and accessible design package.
+
+Interpreting and Implementing User Needs
+
+I interpreted the user’s needs by carefully analyzing the client’s problem statement, gameplay description, and specific technical requirements. From there, I made design decisions that focused on creating a smooth and engaging user experience while ensuring the system could manage multiple teams, players, and game sessions reliably. For example, I prioritized features like enforcing unique names for teams and games to avoid confusion, and structuring the game flow to support seamless round progression with minimal delays. I also paid close attention to the scalability of the system so that more users could be supported in the future without major architectural changes. Considering the user’s needs during design is critical because it ensures the software will not only function properly but also be intuitive, enjoyable, and accessible for its target audience. Designing with the user in mind helps create products that meet real expectations and encourages long-term engagement.
+
+Approach to Designing Software
+
+My approach to designing the software started with gathering a thorough understanding of the client’s goals, user needs, and technical constraints. From there, I broke the system down into smaller, clearly defined components, focusing first on the core functionality such as managing games, teams, and players – ultimately focusing on creating a design that would be scalable, maintainable, and easy to develop against. Moving forward, I would continue using this structured design-first approach, but I would also incorporate more iterative design strategies – such as building quick prototypes and seeking early user feedback – to refine ideas sooner. Combining detailed planning with agile feedback loops would make future software designs even stronger and more aligned with user expectations from the beginning.
